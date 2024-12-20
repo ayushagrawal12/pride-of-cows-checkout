@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pride of Cows Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pride of Cows Checkout</h1>
+    </header>
+
+    <div class="container">
+        <!-- Product Summary Section -->
+        <section class="product-summary">
+            <h2>Product Summary</h2>
+            <div id="product-list" class="product-list">
+                <!-- Dynamic Product List -->
+            </div>
+
+            <!-- Cart Summary -->
+            <div id="cart-summary" class="cart-summary">
+                <h3>Cart Summary</h3>
+                <p><strong>Subtotal:</strong> <span id="subtotal">$0.00</span></p>
+                <p><strong>Tax (18% GST):</strong> <span id="tax">$0.00</span></p>
+                <p><strong>Total:</strong> <span id="total">$0.00</span></p>
+
+                <strong> <label for="coupon">Coupon Code</label></strong>
+                <input type="text" id="coupon" placeholder="Enter Coupon Code">
+                <button id="apply-coupon" onclick="applyCoupon()">Apply Coupon</button>
+
+                <button class="checkout-btn" onclick="proceedToCheckout()">Proceed to Checkout</button>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Contact Information</h2>
+            <form id="contact-form">
+                <!-- Name Field -->
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+        
+                <!-- Email Field -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+                <label for="phone">Phone Number </label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required pattern="[0-9]{10}">
+        
+                <!-- Delivery Address Field -->
+                <label for="address">Delivery Address</label>
+                <textarea id="address" name="address" placeholder="Enter your delivery address" required></textarea>
+        
+                <!-- Delivery Instructions (Optional) -->
+                <label for="instructions">Delivery Instructions (Optional)</label>
+                <textarea id="instructions" name="instructions" placeholder="Any specific instructions for delivery?"></textarea>
+        
+                <!-- Terms and Conditions Checkbox -->
+                <div class="checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms & Conditions</a>.</label>
+                </div>
+        
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pride of Cows. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
