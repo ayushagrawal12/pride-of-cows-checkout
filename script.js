@@ -1,10 +1,10 @@
 // Sample Product List
 const products = [
-    { name: "Premium Milk Bottle", price: 4.50, image: "images/milk.jpg", description: "Fresh and premium quality milk in a bottle." },
-    { name: "Paneer", price: 3.50, image: "images/paneer.jpg", description: "Fresh, soft, and healthy paneer." },
-    { name: "Butter", price: 3.00, image: "images/butter.jpg", description: "Freshly churned butter." },
-    { name: "Curd", price: 2.80, image: "images/curd.jpg", description: "Creamy, fresh, and healthy curd." },
-    { name: "Monthly Subscription", price: 12.00, image: "images/subscription.png", description: "Get a monthly subscription for fresh products." }
+    { name: "Premium Milk Bottle", price: 4.50, image: "milk.jpg", description: "Fresh and premium quality milk in a bottle." },
+    { name: "Paneer", price: 3.50, image: "paneer.jpg", description: "Fresh, soft, and healthy paneer." },
+    { name: "Butter", price: 3.00, image: "butter.jpg", description: "Freshly churned butter." },
+    { name: "Curd", price: 2.80, image: "curd.jpg", description: "Creamy, fresh, and healthy curd." },
+    { name: "Monthly Subscription", price: 12.00, image: "subscription.png", description: "Get a monthly subscription for fresh products." }
 ];
 
 let cart = [];
