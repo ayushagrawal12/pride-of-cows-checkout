@@ -1,4 +1,6 @@
 Pride of Cows Checkout Page
+
+
 A fully responsive and visually appealing checkout page for "Pride of Cows" that provides a seamless user experience. This page includes a summary of products, a contact form for delivery details, and cart functionality.
 
 Features
